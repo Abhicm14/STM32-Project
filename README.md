@@ -25,9 +25,9 @@ https://github.com/user-attachments/assets/your-video-id-or-gif-here
 
 ## Hardware Used
 
-| Component              | Model                          | Interface |
+| Component              | Model                         | Interface |
 |------------------------|-------------------------------|-----------|
-| Main MCU               | STM32F103C8T6 (Blue Pill)     | -         |
+| Main MCU               | STM32F407VGT6 (Blue Pill)     | -         |
 | Wi-Fi Module           | ESP32 DevKitC / NodeMCU       | UART      |
 | Display                | 0.96" I2C OLED SSD1306        | I2C       |
 | Buttons                | 3× Tactile Push Buttons       | GPIO      |
@@ -44,17 +44,17 @@ https://github.com/user-attachments/assets/your-video-id-or-gif-here
 
 ```plaintext
 STM32F103                ESP32
-PA9  (USART1_TX)    →    GPIO3 (RX)
-PA10 (USART1_RX)    →    GPIO1 (TX)
+PA2  (USART1_TX)    →    GPIO3 (RX)
+PA3 (USART1_RX)     →    GPIO1 (TX)
 GND                 →    GND
 
 STM32                    OLED (SSD1306)
-PB6 (I2C1_SCL)      →    SCL
-PB7 (I2C1_SDA)      →    SDA
+PB10 (I2C1_SCL)     →    SCL
+PB11 (I2C1_SDA)     →    SDA
 3.3V                →    VCC
 GND                 →    GND
 
 Buttons (Active Low with internal pull-up):
-PC13 → Select Button
-PA0  → Up Button
-PA1  → Down Button
+PA10 → Select Button
+PA8  → Up Button
+PA9  → Down Button
