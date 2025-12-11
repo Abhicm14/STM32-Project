@@ -1,18 +1,11 @@
 # Wi-Fi-Scanning-and-Connection-System-Using-ESP32-and-STM32
 
-![Project Banner](images/banner.jpg)
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+![ESP32-STM32 Wi-Fi Network Selector Banner](https://files.catbox.moe/3m0p8k.jpg)
+![Project Video](images/Workflow_of_Project.mp4)
 
 A complete embedded system that allows users to **scan nearby Wi-Fi networks** and **connect to the desired one** using only three buttons and an OLED display.
 
 Developed during my **Embedded Systems Internship at Loginware Softwares**.
-
-## Demo (Must Watch!)
-
-https://github.com/user-attachments/assets/your-video-id-or-gif-here  
-*(Replace the above line with your actual demo GIF or video)*
-
-![Demo GIF](images/demo.gif)
 
 ## Features
 
@@ -33,12 +26,9 @@ https://github.com/user-attachments/assets/your-video-id-or-gif-here
 | Buttons                | 3× Tactile Push Buttons       | GPIO      |
 
 ### Circuit Connection Diagram
-![Circuit Diagram](images/circuit.jpg)
+![Circuit Diagram](images/Project_Image.jpg)
 
-### Actual Hardware Photos
-| Front View                  | Side View                     |
-|-----------------------------|-------------------------------|
-| ![Front](images/front.jpg)  | ![Side](images/side.jpg)      |
+| ![OLED](images/OLED_Display.jpg)  | ![ESP](images/ESP_Serial_Monitor_Image.png)      |
 
 ## Pin Connections
 
